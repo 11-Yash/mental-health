@@ -1,0 +1,20 @@
+{
+  "name": "gail-chatbot",
+  "version": "1.0.0",
+  "description": "A chatbot powered by the Gemini API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack --mode production" 
+  },
+  "keywords": ["chatbot", "gemini", "ai", "natural language processing"],
+  "author": "Your Name <your_email@example.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.17.1",
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
